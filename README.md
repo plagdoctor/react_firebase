@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+mod 20220708 ljy,
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+
+export const authService = getAuth(firebaseApp);
+
+react-router-dom 5.3버전으로 해야함;
+mod 20220708;
